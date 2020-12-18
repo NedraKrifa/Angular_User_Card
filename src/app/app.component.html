@@ -1,0 +1,13 @@
+<div fxLayout="row" fxLayoutAlign="start stretch" class="content">
+    <div fxFlex="35" class="config"  p-24 mb-24 fxLayoutAlign="center center">
+        <app-config-side-bar ></app-config-side-bar>
+    </div>
+    <div fxFlex="65" class=" content" >
+
+            <div class="board-list bloc-question"  fxLayout="row wrap" fxFlex="0 0 auto" fxLayoutAlign="center center">
+
+                <app-user-card *ngFor="let user of listUsers" [user]="user"></app-user-card>
+
+            </div>
+    </div>
+</div>

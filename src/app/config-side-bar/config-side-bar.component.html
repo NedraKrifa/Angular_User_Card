@@ -1,0 +1,19 @@
+<div class="example-container">
+    <mat-form-field>
+      <mat-label class="field">Nom</mat-label>
+      <input matInput name="nom" [(ngModel)]="nom">
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+        <mat-label class="field">Prenom</mat-label>
+        <input matInput name="prenom" [(ngModel)]="prenom">
+    </mat-form-field>
+    <br>
+    <mat-form-field >
+        <mat-label class="field">Nombre d'enfants</mat-label>
+        <input matInput name="nomberEnfants" [(ngModel)]="nomberEnfants" type="number" min="0">
+    </mat-form-field>
+    <div class="example-button-row">
+        <button mat-flat-button color="primary" (click)="onSubmit()">ADD</button>
+    </div>
+  </div>

@@ -1,0 +1,18 @@
+
+    <!-- BOARD -->
+    <div class="board-list-item choice"  fxLayout="column" fxLayoutAlign="center center">
+        <div class="board-name">Nom: {{user.nom}}</div>
+        <div class="board-name">Prenom: {{user.prenom}}</div>
+        <br>
+        <mat-form-field >
+            <mat-label>NOMBRE D'ENFANTS</mat-label>
+            <input matInput type="number" [(ngModel)]="user.nombre_enfants" min="0">
+        </mat-form-field>
+        <div class="example-button-container">
+            <button mat-fab color="warn" aria-label="Example icon button with a delete icon">
+                <mat-icon>delete</mat-icon>
+            </button>
+        </div>
+    </div>
+    <!-- / BOARD -->
+

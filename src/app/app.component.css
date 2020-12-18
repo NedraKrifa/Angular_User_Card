@@ -1,0 +1,37 @@
+.config{
+    min-width:20%;
+    background: linear-gradient(38deg, rgba(188,191,196,1) 0%, rgba(60,151,242,1) 27%, rgba(108,192,235,1) 57%, rgba(188,191,196,1) 87%);
+}
+.content{
+    min-height: 100%;
+}
+.bloc-question{
+    border: 2px solid #222020;
+    border-radius: 10px;
+    margin: 15px;
+}
+.board-list {
+    padding: 32px 0;
+    max-height: none !important;
+}
+.board-list-item.add-new-board {
+    background: rgba(0, 0, 0, 0.06);
+    border: 2px dashed rgb(61, 61, 61);
+} */
+.board-name {
+    padding: 16px 32px 0 32px;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+}
+.board-list-item {
+    min-width: 250px;
+    min-height: 250px;
+    width: 250px;
+    height: 250px;
+    padding: 24px 0;
+    margin: 16px;
+    border-radius: 8px;
+    transition: box-shadow 150ms ease-in;
+    cursor: pointer;
+    }
